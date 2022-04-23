@@ -25,6 +25,19 @@ i {
   font-size: 2rem;
 }
 
+header {
+  border: 0px dashed rgb(233, 81, 11);
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #33413f;
+  border-bottom: 7px solid #2c837a;
+  font-size: 110%;
+}
+
 .card ul {
   list-style-type: none;
   padding: 0;
@@ -37,42 +50,17 @@ i {
   text-align: center;
 }
 
-ul a {
-  font-weight: 900;
-  font-size: 1rem;
-}
-
 a {
   text-decoration: none;
+  font-weight: 900;
 }
 
-header {
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  position: fixed;
-  background-color: #33413f;
-  border-bottom: 7px solid #2c837a;
-  font-size: 80%;
+nav {
+  border: 0px dashed rgb(206, 20, 135);
 }
-
-nav a {
-  color: rgb(201, 191, 209);
-  text-decoration: none;
-  display: block;
-  padding: 0.4rem 3rem 1rem 3rem;
-  margin: 0 -1rem 0 0; 
-}
-
-nav a:hover {
-  background-color: rgb(201, 191, 209);
-  color: chocolate;
-}
-
 
 nav ul{
+  border: 0px dashed rgb(80, 17, 49);
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -81,6 +69,29 @@ nav ul{
   justify-content: left;
   align-items: center;
 }
+
+nav li {
+  width: 8rem;
+  border: 0px dashed blueviolet;
+  display: inline-block;
+}
+
+
+nav a {
+  text-align: center;
+  padding: 1rem;
+  border: 0px dashed yellow;
+  color: rgb(201, 191, 209);
+  text-decoration: none;
+  display: block;
+
+}
+
+nav a:hover {
+  background-color: rgb(201, 191, 209);
+  color: chocolate;
+}
+
 
 .card {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
