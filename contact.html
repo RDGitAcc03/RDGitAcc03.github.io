@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts -->
+    <title>Contact Page</title>
+    <link href="./css/contact-css.css" rel="stylesheet" /> <!-- contact-css -->
+    <link href="./css/all.min.css" rel="stylesheet" /> <!-- fontawesome-css -->
+    <script src="/js/submit.js"></script>
+  </head>
+
+
+  <body>
+    <!-- navbar -->
+    <nav class="top-nav"> 
+      <ul> 
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="contact.html">Contact</a></li> 
+        <li><a href="about.html">About</a></li> 
+      </ul>
+    </nav>
+    <!-- navbar -->
+
+
+      <!-- form -->
+    <div class="form-wrapper">
+      <form>
+        <fieldset>
+          <legend>Your Conatct Information</legend>
+            <div>
+              <label for="fname">First Name:</label>
+              <input id="fname" type="text" onkeyup="enableSubmit()" placeholder="Enter your first name" required autofocus>
+            </div>
+            <div>
+              <label for="lname">Last Name:</label>
+              <input id="lname" type="text" onkeyup="enableSubmit()" placeholder="Enter your last name">
+            </div>
+            <div>
+              <label for="age">Age:</label>
+              <input id="age" type="number" onkeyup="enableSubmit()" placeholder="Enter your age (number)" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input id="email" type="email" onkeyup="enableSubmit()" placeholder="Enter your email" required>
+            </div>
+            <div class="comments">
+              <label for="comments">Any Comments:</label>
+              <textarea id="comments" onkeyup="enableSubmit()" placeholder="I think that.." required></textarea>
+            </div>
+        </fieldset>
+        <fieldset class="fs-submit">
+        <div>
+          <input type="button" id="submit" onclick="showInput()" value="Submit the form" disabled/>
+        </div>
+      </fieldset>
+      <p id="op"></p>
+      </form>
+    </div>
+      <!-- form -->
+
+    <!-- footer -->
+    <footer> 
+      <div class="company">&#169; Israel Tech Challenge</div>
+
+      <div class="sentence">This page was built using: HTML, CSS and JavaScript.</div>
+
+           <!-- navbar -->
+           <ul> 
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="contact.html">Contact</a></li> 
+            <li><a href="about.html">About</a></li> 
+          </ul>
+           <!-- navbar -->
+    </footer>
+    <!-- footer -->
+    <script src="./js/footerwords.js"></script>
+  </body>
+</html>

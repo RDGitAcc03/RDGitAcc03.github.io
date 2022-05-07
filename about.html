@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    /> -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts -->
+    <title>About page</title>
+    <link href="./css/about-css.css" rel="stylesheet" /> <!-- about-css -->
+    <link href="./css/all.min.css" rel="stylesheet" /> <!-- fontawesome-css -->
+    <script src="/js/mapbuttons.js"></script>
+  </head>
+
+
+  <body>
+    <!-- navbar -->
+    <nav class="top-nav"> 
+      <ul> 
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="contact.html">Contact</a></li> 
+        <li><a href="about.html">About</a></li> 
+      </ul>
+    </nav>
+    <!-- navbar -->
+      
+      <!-- section 1 -->
+    <section class="sec-1">
+      <h1>Why Am I Intersted In Coding ?</h1>
+        <p>
+          I'm intersted in coding becuase I'm facinated by the ability to solve all kinds of problems through my hands and my brain.
+          Problems in programming in specific, and problems in Science and Technology in general.
+          I find these subjects to be the most fun and interesting to me.
+        </p>
+      <h1>My Educational And Career Experience</h1>
+        <p>
+          I studied at high school the following subjects in a level of 5 units:
+          <ul>
+            <li>Math</li>
+            <li>Computer Science</li>
+            <li>Physics</li>
+            <li>English</li>
+          </ul>
+        </p>
+        <p id="besides-p">Besides, I have been studying independetly 2 Courses related to Web Development:</p>
+        <ol>
+          <li><span>cyber security</span> in the web - A course called 'Websec' by CampusIL</li>
+          <li><span>Full-stack Development</span> - front end, back end - A course by Udemy</li>
+        </ol>
+        <h1>My Personal Interests</h1>
+        <p>
+            I like traveling, doing sports, listening to music, watching movies, reading and eating (especially meat :-D)
+        </p>
+      </section>
+      <!-- section 1 -->
+
+      <!-- h1 between sections -->
+      <h1 class="between">The Cities In Which I Lived in:</h1>
+      <!-- h1 between sections -->
+
+      <!-- section 2 -->
+      <section class="sec-2">
+        <!-- <header><h2>City</h2></header> -->
+        <div id="city" class="city">
+          <div id="containerPre" class="containerPre">
+            <button id="previous" onclick="countPre()">
+              <a id="aPrevious" target="iframe_a">Previous</a>
+            </button>
+          </div>
+          <div>
+            <div class="msg">
+             <p id="birth-city" hidden>I was born Here !</p>
+            </div>
+          <iframe id="my-frame" src="iframe-page.html" width="750" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+          title="city"
+          name="iframe_a" 
+          referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+          <div id="containerNxt" class="containerNxt">
+            <button id="next" onclick="countNxt()">
+              <a id="aNext" target="iframe_a">Next</a>
+            </button>
+          </div>
+      </div>        
+      </section>
+      <!-- section 2 -->
+
+    <!-- footer -->
+    <footer> 
+      <div class="company">&#169; Israel Tech Challenge</div>
+
+      <div class="sentence">This page was built using: HTML, CSS and JavaScript.</div>
+
+           <!-- navbar -->
+           <ul> 
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="contact.html">Contact</a></li> 
+            <li><a href="about.html">About</a></li> 
+          </ul>
+        <!-- navbar -->
+    </footer>
+    <!-- footer -->
+    <script src="/js/footerwords.js"></script>
+  </body>
+</html>
