@@ -13,13 +13,15 @@
     />
     <!-- google fonts -->
     <title>Contact Page</title>
-    <link href="./css/contact-css.css" rel="stylesheet" /> <!-- contact-css -->
-    <link href="./css/all.min.css" rel="stylesheet" /> <!-- fontawesome-css -->
     <script src="/js/submit.js"></script>
+    <script src="/js/footerwords.js"></script>
+    <script src="/js/validation.js"></script>
+    <link href="./css/style.css" rel="stylesheet" /> <!-- style-css -->
+    <link href="./css/all.min.css" rel="stylesheet" /> <!-- fontawesome-css -->
   </head>
-
-
   <body>
+
+
     <!-- navbar -->
     <nav class="top-nav"> 
       <ul> 
@@ -34,7 +36,7 @@
       <!-- form -->
     <div class="form-wrapper">
       <form>
-        <fieldset>
+        <fieldset class="fs-info">
           <legend>Your Conatct Information</legend>
             <div>
               <label for="fname">First Name:</label>
@@ -46,11 +48,11 @@
             </div>
             <div>
               <label for="age">Age:</label>
-              <input id="age" type="number" onkeyup="enableSubmit()" placeholder="Enter your age (number)" required>
+              <input id="age" type="number" onkeyup="enableSubmit(); checkAge()" placeholder="Enter your age (number)" min="0" required>
             </div>
             <div>
               <label for="email">Email:</label>
-              <input id="email" type="email" onkeyup="enableSubmit()" placeholder="Enter your email" required>
+              <input id="email" type="email" onkeyup="enableSubmit()" placeholder="Enter your email">
             </div>
             <div class="comments">
               <label for="comments">Any Comments:</label>
@@ -62,11 +64,12 @@
           <input type="button" id="submit" onclick="showInput()" value="Submit the form" disabled/>
         </div>
       </fieldset>
-      <p id="op"></p>
+      <!-- <p id="op"></p> -->
       </form>
     </div>
       <!-- form -->
 
+      
     <!-- footer -->
     <footer> 
       <div class="company">&#169; Israel Tech Challenge</div>
@@ -82,6 +85,5 @@
            <!-- navbar -->
     </footer>
     <!-- footer -->
-    <script src="./js/footerwords.js"></script>
   </body>
 </html>

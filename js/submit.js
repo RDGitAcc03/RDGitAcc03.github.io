@@ -3,7 +3,7 @@ let str = "";
 
 function showInput(){
     str = `fname: ${document.getElementById('fname').value}, lname: ${document.getElementById('lname').value}, age: ${document.getElementById('age').value}, email: ${document.getElementById('email').value}, comments: ${document.getElementById('comments').value}.`;     
-    document.getElementById('op').innerHTML = `<font size='3rem'>${str}</font>`;
+    // document.getElementById('op').innerHTML = `<font size='3rem'>${str}</font>`;
     console.log(str); 
 }
 
