@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top right, #027373, #038C7F, #ADD9D1, #D95252);
+    background-attachment: fixed;
 }
 
 /* -----------------------Navbar------------------------*/
@@ -44,7 +45,7 @@ nav.top-nav a {
     display: block;
     margin: 0;
     padding: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.1vw;
     text-decoration: none;
     font-weight: bold; 
     color: #551A8B;
@@ -138,7 +139,7 @@ h2 {
 footer{
     text-align: center;
     z-index: 10;
-    font-size: 1rem;
+    font-size: 1vw;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -178,7 +179,7 @@ footer li {
 }
 footer a {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.1vw;
     margin: 0;
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -273,22 +274,22 @@ section.sec-1 {
     border-left: 1px solid black;
 }
 section.sec-1 h1 {
-    font-size: 2rem;
+    font-size: 2.3vw;
     padding: 0.5rem;
     background-color: #D95252;
 }
 section.sec-1 p {
-    font-size: 1.5rem;
+    font-size: 1.8vw;
     padding: 0.5rem;
 }
 section.sec-1 ul {
-    font-size: 1.5rem;
+    font-size: 1.8vw;
 }
 #besides-p {
     margin-top: -1rem;
 }
 section.sec-1 ol {
-    font-size: 1.5rem;
+    font-size: 1.8vw;
     padding-bottom: 1.5rem;
 }
 section.sec-1 ol span {
@@ -302,7 +303,7 @@ section.sec-1 ol span {
 
 h1.between {
     background-color: #222;
-    font-size: 2.5rem;
+    font-size: 3vw;
     color: white;
     text-align: center;
     padding: 3rem;
@@ -315,7 +316,7 @@ h1.between {
 /* -----------------------Section2------------------------*/
 
 section.sec-2 {
-    width: 70%;
+    width: 80%;
     margin: 8% auto;
     /* border: 1px solid blue; */
 }
@@ -327,11 +328,13 @@ div.city {
     -moz-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
     box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
     background-image: url("/images/tel-aviv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     /* border: solid black; */
 }
 
 div.msg {
-    margin: 0 auto;
+    margin: 0 28% 0 32%;
     text-align: center;
     height: 38px;
     width: 40%;
@@ -347,7 +350,7 @@ div.msg #birth-city {
     /* border: solid blue; */
 }
 div.city iframe {
-    margin: 0 30%;
+    margin: 0 28% 0 32%;
     margin-bottom: 5%;
     width: 40%;  
     aspect-ratio: 1/1;
@@ -361,11 +364,13 @@ div.city iframe {
 }
 
 div.containerPre {
+    margin-right: 3%;
     position: absolute;
     top: 50%;
     left: 3%;
 }
 div.containerNxt {
+    margin-left: 7%;
     position: absolute;
     top: 50%;
     right: 3%;
@@ -377,9 +382,9 @@ div.containerNxt {
     opacity: 0;
 }
 div.city a {
-    /* display: inline-block; */
-    font-size: 2rem;
-    padding: 2rem 3rem;
+    display: inline-block;
+    font-size: 2vw;
+    padding: 1rem 2rem;
     font-weight: bold;
     text-decoration: none;
     -webkit-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
