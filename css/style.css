@@ -197,12 +197,13 @@ footer a:hover {
 /* -----------------------Form------------------------*/
 
 div.form-wrapper {
-    padding-top: 4.5rem; /* 53px */ 
+    padding-top: 6vw; 
 }
 form {
+    size-adjust: 50;
     text-align: center;
-    width: 35vw;
-    margin: 0rem auto 27% auto;
+    width: 35%;
+    margin: 1% auto 3% auto;
     font-weight: bold;
     /* border: solid; */
 }
@@ -220,7 +221,7 @@ fieldset.fs-submit {
 }
 legend {
     margin-bottom: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     color: rgb(15, 14, 15);
     background-color: #f0f1f3;
 }
@@ -236,6 +237,7 @@ fieldset.fs-submit input[type="button"]:hover {
 }
 
 fieldset.fs-info label {
+    font-size: 1vw;
     display: inline-block;
     padding: 0 1rem;
     color: rgb(115, 8, 124);
@@ -243,7 +245,7 @@ fieldset.fs-info label {
 }
 fieldset.fs-info input:not(input[type="button"]){
     text-align: left;
-    font-size: 1rem;
+    font-size: 1vw;
     display: block;
     width: 80%;
     margin: 0.5rem auto;
@@ -343,8 +345,8 @@ div.msg {
 div.msg #birth-city {
     margin: 0;
     padding: 0.5rem 0;
-    height: 38px;
-    font-size: 1rem;
+    /* height: 38px; */
+    font-size: 0.5rem;
     color: white;
     background-color: #6e35a3;
     /* border: solid blue; */
