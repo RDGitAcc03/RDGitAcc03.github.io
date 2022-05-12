@@ -268,7 +268,7 @@ fieldset.fs-info div.comments textarea {
 /* -----------------------Section1------------------------*/
 
 section.sec-1 {
-    margin: 10rem 10%;
+    margin: 5rem 10% 3rem 10%;
     width: 75%;
     padding-left: 7rem;
     border-left: 1px solid black;
@@ -342,9 +342,9 @@ div.msg {
 }
 div.msg #birth-city {
     margin: 0;
-    padding: 0;
+    padding: 0.5rem 0;
     height: 38px;
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     background-color: #6e35a3;
     /* border: solid blue; */
