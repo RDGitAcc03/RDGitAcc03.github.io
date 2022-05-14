@@ -13,9 +13,6 @@
     />
     <!-- google fonts -->
     <title>ITC Precourse</title>
-    <script src="/js/animatecard.js"></script>
-    <script src="/js/portfolio.js"></script>
-    <script src="/js/footerwords.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!-- animate.css -->
     <link href="./css/style.css" rel="stylesheet" /> <!-- style-css -->
     <link href="./css/all.min.css" rel="stylesheet" /> <!-- fontawesome-css -->
@@ -27,15 +24,14 @@
     <nav class="top-nav"> 
       <ul> 
         <li><a href="index.html">Home</a></li> 
-        <li><a href="contact.html">Contact</a></li> 
         <li><a href="about.html">About</a></li> 
+        <li><a href="contact.html">Contact</a></li> 
       </ul>
     </nav>
     <!-- navbar -->
-    <!-- page-wrapper -->
-    <div class="page-wrapper">
+
       <!-- card -->
-      <div id="card" class="card" onclick="hinge()">
+      <div id="card" class="card">
         <img
           id="profile-image"
           src="images/code.png"
@@ -64,24 +60,25 @@
         <h2>ITC Fullstack Development.</h2>
       </div>
       <!-- card -->
-    </div>
-    <!-- page-wrapper -->
     
       <!-- footer -->
       <footer> 
         <div class="company">&#169; Israel Tech Challenge</div>
   
-        <div class="sentence">This page was built using: HTML, CSS and JavaScript.</div>
+        <div id="sentence">This page was built using: HTML, CSS and JavaScript.</div>
   
              <!-- navbar -->
              <ul> 
               <li><a href="index.html">Home</a></li> 
-              <li><a href="contact.html">Contact</a></li> 
               <li><a href="about.html">About</a></li> 
+              <li><a href="contact.html">Contact</a></li> 
             </ul>
           <!-- navbar -->
       </footer>
       <!-- footer -->
 
+    <script src="/js/footerPresentedSentence.js"></script>
+    <script src="/js/animateCard.js"></script>
+    <script src="/js/portfolio.js"></script>
   </body>
 </html>

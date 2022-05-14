@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top right, #027373, #038C7F, #ADD9D1, #D95252);
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 
 /* -----------------------Navbar------------------------*/
@@ -137,8 +137,8 @@ h2 {
 /* -----------------------Footer------------------------*/
 
 footer{
-    text-align: center;
     z-index: 10;
+    text-align: center;
     font-size: 1vw;
     display: flex;
     flex-wrap: nowrap;
@@ -255,10 +255,11 @@ fieldset.fs-info div.comments{
     margin-top: 2rem;
 }
 fieldset.fs-info div.comments textarea {
+    font-size: 1vw;
     margin: 0.5rem auto;
     display: block;
     width: 80%;
-    height: 8rem;
+    height: 8vw;
 }
 
 /* -----------------------Form------------------------*/

@@ -13,21 +13,18 @@
     />
     <!-- google fonts -->
     <title>Contact Page</title>
-    <script src="/js/submit.js"></script>
-    <script src="/js/footerwords.js"></script>
-    <script src="/js/validation.js"></script>
     <link href="./css/style.css" rel="stylesheet" /> <!-- style-css -->
     <link href="./css/all.min.css" rel="stylesheet" /> <!-- fontawesome-css -->
   </head>
+
+
   <body>
-
-
     <!-- navbar -->
     <nav class="top-nav"> 
       <ul> 
         <li><a href="index.html">Home</a></li> 
-        <li><a href="contact.html">Contact</a></li> 
         <li><a href="about.html">About</a></li> 
+        <li><a href="contact.html">Contact</a></li> 
       </ul>
     </nav>
     <!-- navbar -->
@@ -40,31 +37,31 @@
           <legend>Your Conatct Information</legend>
             <div>
               <label for="fname">First Name:</label>
-              <input id="fname" type="text" onkeyup="enableSubmit()" placeholder="Enter your first name" required autofocus>
+              <input id="fname" type="text" placeholder="Enter your first name" required autofocus>
             </div>
             <div>
               <label for="lname">Last Name:</label>
-              <input id="lname" type="text" onkeyup="enableSubmit()" placeholder="Enter your last name">
+              <input id="lname" type="text" placeholder="Enter your last name">
             </div>
             <div>
               <label for="age">Age:</label>
-              <input id="age" type="number" onkeyup="enableSubmit(); checkAge()" placeholder="Enter your age (number)" min="0" required>
+              <input id="age" type="number" placeholder="Enter your age (number)" min="0" required>
             </div>
             <div>
               <label for="email">Email:</label>
-              <input id="email" type="email" onkeyup="enableSubmit()" placeholder="Enter your email">
+              <input id="email" type="email" placeholder="Enter your email">
             </div>
             <div class="comments">
               <label for="comments">Any Comments:</label>
-              <textarea id="comments" onkeyup="enableSubmit()" placeholder="I think that.." required></textarea>
+              <textarea id="comments" placeholder="I think that.." required></textarea>
             </div>
         </fieldset>
         <fieldset class="fs-submit">
         <div>
-          <input type="button" id="submit" onclick="showInput()" value="Submit the form" disabled/>
+          <input type="button" id="submit" value="Submit the form" disabled/>
         </div>
       </fieldset>
-      <!-- <p id="op"></p> -->
+
       </form>
     </div>
       <!-- form -->
@@ -74,16 +71,19 @@
     <footer> 
       <div class="company">&#169; Israel Tech Challenge</div>
 
-      <div class="sentence">This page was built using: HTML, CSS and JavaScript.</div>
+      <div id="sentence">This page was built using: HTML, CSS and JavaScript.</div>
 
            <!-- navbar -->
            <ul> 
             <li><a href="index.html">Home</a></li> 
-            <li><a href="contact.html">Contact</a></li> 
             <li><a href="about.html">About</a></li> 
+            <li><a href="contact.html">Contact</a></li> 
           </ul>
            <!-- navbar -->
     </footer>
     <!-- footer -->
+
+    <script src="/js/form.js"></script>
+    <script src="./js/footerPresentedSentence.js"></script>
   </body>
 </html>

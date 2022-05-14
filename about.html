@@ -13,11 +13,8 @@
     />
     <!-- google fonts -->
     <title>About page</title>
-    <script src="/js/mapbuttons.js"></script>
-    <script src="/js/footerwords.js"></script>
     <link href="./css/style.css" rel="stylesheet" /> <!-- style-css -->
     <link href="./css/all.min.css" rel="stylesheet" /> <!-- fontawesome-css -->
-    <script src="/js/iframeResizer.min.js"></script>
   </head>
 
 
@@ -26,8 +23,8 @@
     <nav class="top-nav"> 
       <ul> 
         <li><a href="index.html">Home</a></li> 
-        <li><a href="contact.html">Contact</a></li> 
         <li><a href="about.html">About</a></li> 
+        <li><a href="contact.html">Contact</a></li> 
       </ul>
     </nav>
     <!-- navbar -->
@@ -40,9 +37,9 @@
           Problems in programming in specific, and problems in Science and Technology in general.
           I find these subjects to be the most fun and interesting to me.
         </p>
-      <h1>My Educational And Career Experience</h1>
+      <h1>My Educational And Career Experiences</h1>
         <p>
-          I studied at high school the following subjects in a level of 5 units:
+          I've studied at high school the following subjects in a level of 5 units:
           <ul>
             <li>Math</li>
             <li>Computer Science</li>
@@ -88,13 +85,13 @@
 
           <!-- anchor previous -->
           <div id="containerPre" class="containerPre">
-              <a id="aPrevious" target="iframe_a" onclick="countPre()">Previous</a>
+              <a id="aPrevious" target="iframe_a">Previous</a>
           </div>
           <!-- anchor previous -->
 
           <!-- anchor next -->
           <div id="containerNxt" class="containerNxt">
-              <a id="aNext" target="iframe_a" onclick="countNxt()">Next</a>
+              <a id="aNext" target="iframe_a">Next</a>
           </div>
           <!-- anchor next -->
 
@@ -106,16 +103,19 @@
     <footer> 
       <div class="company">&#169; Israel Tech Challenge</div>
 
-      <div class="sentence">This page was built using: HTML, CSS and JavaScript.</div>
+      <div id="sentence">This page was built using: HTML, CSS and JavaScript.</div>
 
-           <!-- navbar -->
-           <ul> 
+        <!-- navbar -->
+          <ul> 
             <li><a href="index.html">Home</a></li> 
-            <li><a href="contact.html">Contact</a></li> 
             <li><a href="about.html">About</a></li> 
+            <li><a href="contact.html">Contact</a></li> 
           </ul>
         <!-- navbar -->
     </footer>
     <!-- footer -->
+
+    <script src="/js/mapbuttons.js"></script>
+    <script src="/js/footerPresentedSentence.js"></script>
   </body>
 </html>
