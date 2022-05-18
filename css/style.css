@@ -6,7 +6,7 @@
 body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Slabo 27px', serif;
     margin: 0;
     padding: 0;
     background-size: cover;
@@ -63,10 +63,10 @@ nav.top-nav a:hover {
 
 /* square animation example */
 @keyframes example {
-    0%   {background-image: linear-gradient(#ADD9D1, #D95252); left:0px; top:0px;}
+    0%   {background-image: linear-gradient(#ADD9D1, #D95252); left:0px; top:0px;} 
     25%  {background-image: linear-gradient(#277063, #26508f); left:80px; top:0px;}
-    50%  {background-image: linear-gradient(#1b124e, #72138a); left:80px; top:80px;}
-    75%  {background-image: linear-gradient(#c21c40, #cf8320); left:0px; top:80px;}
+    50%  {background-image: linear-gradient(#1b124e, #72138a); left:70px; top:70px;}
+    75%  {background-image: linear-gradient(#c21c40, #cf8320); left:0px; top:70px;}
     100% {background-image: linear-gradient(#2dc010, #11c598); left:0px; top:0px;}
 }
 div.card {
@@ -197,13 +197,12 @@ footer a:hover {
 /* -----------------------Form------------------------*/
 
 div.form-wrapper {
-    padding-top: 6vw; 
+    padding-top: 4.5vw; 
 }
 form {
-    size-adjust: 50;
     text-align: center;
     width: 35%;
-    margin: 1% auto 3% auto;
+    margin: 0 auto 3% auto;
     font-weight: bold;
     /* border: solid; */
 }
@@ -245,6 +244,7 @@ fieldset.fs-info label {
 }
 fieldset.fs-info input:not(input[type="button"]){
     text-align: left;
+    padding: 0.5rem;
     font-size: 1vw;
     display: block;
     width: 80%;
